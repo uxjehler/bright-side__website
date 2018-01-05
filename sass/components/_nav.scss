@@ -1,0 +1,56 @@
+.navigation {
+    background-color: $color-white;
+    width: 100vw;
+    padding: .8rem 2.4rem;
+    position: fixed;
+    clear: both;
+    box-shadow: 0 .5rem 1rem rgba($color-black, .05);
+    z-index: 10;
+
+    &__logo {
+
+            font-family: "Open Sans";
+            font-weight: 400;
+            color: $trout;
+            letter-spacing: .5rem;
+            font-size: 2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+
+    }
+
+    &__login{
+
+        &:link, &:visited {
+            font-family: "Open Sans";
+            font-weight: 600;
+            color: $hit-grey;
+            letter-spacing: .25rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+
+        &:hover {
+        color: $trout;
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+	        opacity: 0;
+        }
+    }
+
+        &:active {
+            color: $sandy-brown-dark;
+        }
+
+        &--sandy-brown {
+            background-color: $sandy-brown;
+            color: $color-white;
+
+            &::after {
+                background-color: $sandy-brown-dark;
+            }
+        }
+    }
+}

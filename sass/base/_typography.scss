@@ -1,0 +1,92 @@
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-weight: 300;
+	/* font-size: 16px; */
+	line-height: 1.7;
+	color: $trout;
+	padding: 0rem;
+	box-sizing: border-box;
+}
+
+.heading-primary {
+	font-family: "Open Sans";
+	color: $trout;
+    backface-visibility: hidden;
+    
+    &--main {
+        display: block;
+        font-size: 6rem;
+        font-weight: 300;
+        letter-spacing: .25rem;
+        animation: moveInleft 2s ease-in-out;
+    }
+
+    &--sub {
+        display: block;
+        font-size: 4rem;
+        font-weight: 300;
+        letter-spacing: .25rem;
+        margin-bottom: 8rem;
+        animation: moveInright 2s ease-in-out;
+	}
+	
+}
+
+.heading-secondary {
+	font-family: "Open Sans";
+	backface-visibility: hidden;
+
+	&--main {
+		font-size: 4rem;
+		font-weight: 300;
+		display: block;
+		letter-spacing: 2px;
+		max-width: $grid-width-m;
+		margin: 0 auto;
+
+		&-white {
+			color: $color-white;
+		}
+
+		&-trout {
+			color: $trout;
+		}
+	}
+
+	&--sub {
+		font-size: 2rem;
+		font-weight: 300;
+		line-height: 3rem;
+		display: inline-block;
+		color: $trout;
+		letter-spacing: .5px;
+		max-width: $grid-width-s;
+		margin: 0 auto;
+	}
+    
+}
+
+.heading-tertiary {
+    font-size: 2rem;
+    font-weight: 400;
+	text-transform: uppercase;
+	text-align: center;
+
+	&__left {
+		text-align: left;
+	}
+}
+
+.paragraph {
+	font-size: $default-font-size;
+	text-align: center;
+
+	&__left {
+		text-align: left;
+	}
+    
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+
+}

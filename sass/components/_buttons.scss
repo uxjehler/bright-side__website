@@ -1,0 +1,41 @@
+.button {
+
+    &:link, &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 1.6rem 4rem;
+        display: inline-block;
+        border-radius: .4rem;
+        transition: all .2s;
+        position: relative;
+        font-family: "Open Sans";
+        font-weight: 600;
+        letter-spacing: .25rem;
+        font-size: 1.2rem;
+    }
+
+    &:hover {
+        background-color: $sandy-brown-light;
+        transform: translateY(-.4rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, .2);
+
+        &::after {
+            transform: scaleX(1.4) scaleY(1.6);
+	        opacity: 0;
+        }
+    }
+
+    &:active {
+        transform: translateY(-.2rem);
+	    box-shadow: 0 .5rem 1rem rgba($color-black, .3);
+    }
+
+    &--sandy-brown {
+        background-color: $sandy-brown;
+        color: $color-white;
+
+        &::after {
+            background-color: $sandy-brown-dark;
+        }
+    }
+}

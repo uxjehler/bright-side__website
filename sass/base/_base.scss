@@ -1,0 +1,19 @@
+* 
+*::before
+*::after  {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: inherit;
+}
+::-moz-selection {
+	background-color: $sandy-brown;
+	color:#ffffff;
+}
+
+::selection {
+	background-color: $sandy-brown;
+	color:#ffffff;}
+
+html {
+	font-size: 62.5%;
+}

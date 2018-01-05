@@ -1,0 +1,28 @@
+.section-features {
+    padding: 10rem 0 20rem 0;
+    background-image: linear-gradient(to right bottom, $color-white, $athens-grey);
+    background-size: cover;
+    background-attachment: fixed;
+	background-position: center;
+    
+}
+
+.section-about {
+    padding: 10rem 0 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-white, $athens-grey);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-bottom: .25px solid $mischka-grey;
+    
+}
+
+.section-how-it-works {
+    padding: 10rem 0 20rem 0;
+    background-image: linear-gradient(to right top, $color-white, $athens-grey);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    border-bottom: .25px solid $mischka-grey;
+    
+}
