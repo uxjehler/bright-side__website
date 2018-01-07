@@ -72,9 +72,18 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 
-	&__left {
+	&--left {
 		text-align: left;
 	}
+}
+
+.heading-quaternary {
+    font-size: 1.5rem;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	color: $color-white;
 }
 
 .paragraph {
@@ -87,6 +96,24 @@ body {
     
     &:not(:last-child) {
         margin-bottom: 3rem;
-    }
+	}
+	
+	&--white {
+		color: $color-white;
+	}
 
+}
+
+.contact-info__item {
+	font-size: 1.5rem;
+	font-weight: 400;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-align: center;
+	color: $color-white;
+	text-decoration: none;
+}
+
+.text-white {
+	color: $color-white;
 }

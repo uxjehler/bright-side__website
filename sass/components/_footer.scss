@@ -1,12 +1,58 @@
 .footer {
-    padding: 10rem 0 20rem 0;
-    background-image: linear-gradient(to right bottom, $trout, $glacier);
+    padding: 5rem 0 10rem 0;
+    background-image: linear-gradient(to top, $trout, $glacier);
     background-size: cover;
     background-attachment: fixed;
-	background-position: center;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     
 
-    &__text-box {
-        text-align: center;
+    &__container {
+        max-width: $grid-width-s;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+
+        &--heading-quaternary {
+            flex: 0 1 100%;
+        }
+
+        &--contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: $grid-width-s;
+
+            .contact-info__item {
+                padding: 4rem 2rem;
+                text-align: center;
+                
+            }
+        
+        }
+
+        &--social-info {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: $grid-width-s;
+            
+            .socal-info__item {
+                padding: 2rem;
+            }
+            
+        }
+
+        &--footer-sub-info {
+            
+        }
+
+        &--footer-help-info {
+            
+        }
     }
+
+
 }
