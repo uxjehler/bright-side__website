@@ -89,9 +89,11 @@ body {
   .paragraph__left {
     text-align: left; }
   .paragraph:not(:last-child) {
-    margin-bottom: 3rem; }
+    margin-bottom: 1rem; }
   .paragraph--white {
     color: #fff; }
+  .paragraph--light {
+    color: #ADB5BD; }
 
 .contact-info__item {
   font-size: 1.5rem;
@@ -121,6 +123,10 @@ body {
   border-bottom: solid 0.25rem #F69062;
   width: 6.4rem;
   margin: 0 auto; }
+  .breaker-bar--hit-grey {
+    border-bottom: solid 0.25rem #ADB5BD;
+    width: 6.4rem;
+    margin: 0 auto; }
 
 .button:link, .button:visited {
   text-transform: uppercase;
@@ -182,31 +188,33 @@ body {
 
 .footer {
   padding: 3rem 0 5rem 0;
-  background-color: #000;
+  background-color: #4E5865;
   display: flex;
   align-items: center;
   justify-content: center; }
   .footer__container {
-    max-width: 64rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center; }
+    max-width: 88rem; }
     .footer__container--heading-quaternary {
       flex: 0 1 100%; }
     .footer__container--contact-info {
       display: flex;
       flex-wrap: wrap;
-      max-width: 64rem; }
-      .footer__container--contact-info .contact-info__item {
-        padding: 4rem 2rem;
-        text-align: center; }
+      max-width: 114rem; }
+      .footer__container--contact-info .footer-column {
+        padding: 4rem 0rem 1rem 0rem;
+        text-align: center;
+        width: 33.33%; }
+        .footer__container--contact-info .footer-column a:first-child {
+          display: block;
+          padding-bottom: 2rem; }
     .footer__container--social-info {
       display: flex;
       flex-wrap: wrap;
       max-width: 64rem; }
       .footer__container--social-info .socal-info__item {
         padding: 2rem; }
+    .footer__container--sub-info {
+      padding-top: 4rem; }
 
 .section-icon {
   text-align: center; }
@@ -292,7 +300,7 @@ body {
 
 .header {
   height: 95vh;
-  background-image: url(../images/hero-header.jpg);
+  background: url(../images/hero-header.jpg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -305,14 +313,14 @@ body {
     text-align: center; }
 
 .section-features {
-  padding: 10rem 0 20rem 0;
+  padding: 10rem 0 10rem 0;
   background-image: linear-gradient(to right bottom, #fff, #EEEFF1);
   background-size: cover;
   background-attachment: fixed;
   background-position: center; }
 
 .section-about {
-  padding: 10rem 0 15rem 0;
+  padding: 10rem 0 10rem 0;
   background-image: linear-gradient(to top, #4E5865, #6FA8C6);
   background-size: cover;
   background-attachment: fixed;
@@ -320,7 +328,7 @@ body {
   border-bottom: 0.25px solid #D7D7DB; }
 
 .section-how-it-works {
-  padding: 10rem 0 20rem 0;
+  padding: 10rem 0 10rem 0;
   background-image: linear-gradient(to right top, #fff, #EEEFF1);
   background-size: cover;
   background-attachment: fixed;
@@ -329,4 +337,6 @@ body {
 
 .section-privacy {
   padding: 10rem 0 15rem 0;
+  background: url(../images/image__privacy.png) no-repeat left top;
+  background-size: 100rem;
   background-color: #4E5865; }

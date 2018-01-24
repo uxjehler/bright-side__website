@@ -95,11 +95,15 @@ body {
 	}
     
     &:not(:last-child) {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
 	}
 	
 	&--white {
 		color: $color-white;
+	}
+
+	&--light {
+		color: $hit-grey;
 	}
 
 }

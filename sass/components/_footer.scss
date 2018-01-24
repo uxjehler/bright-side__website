@@ -1,6 +1,6 @@
 .footer {
     padding: 3rem 0 5rem 0;
-    background-color: $color-black;
+    background-color: $trout;
     //background-size: cover;
     //background-attachment: fixed;
     //background-position: center;
@@ -11,11 +11,7 @@
     
 
     &__container {
-        max-width: $grid-width-s;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
+        max-width: $grid-width-m;
 
         &--heading-quaternary {
             flex: 0 1 100%;
@@ -24,12 +20,17 @@
         &--contact-info {
             display: flex;
             flex-wrap: wrap;
-            max-width: $grid-width-s;
+            max-width: $grid-width;
 
-            .contact-info__item {
-                padding: 4rem 2rem;
+            .footer-column {
+                padding: 4rem 0rem 1rem 0rem;
                 text-align: center;
+                width: 33.33%;
                 
+                a:first-child {
+                    display: block;
+                    padding-bottom: 2rem;
+                }
             }
         
         }
@@ -45,7 +46,8 @@
             
         }
 
-        &--footer-sub-info {
+        &--sub-info {
+            padding-top: 4rem;
             
         }
 

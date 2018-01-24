@@ -18,4 +18,10 @@
     border-bottom: solid .25rem $sandy-brown;
     width: 6.4rem;
     margin: 0 auto;
+
+    &--hit-grey {
+        border-bottom: solid .25rem $hit-grey;
+        width: 6.4rem;
+        margin: 0 auto;
+    }
 }

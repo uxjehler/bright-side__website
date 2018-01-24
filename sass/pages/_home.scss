@@ -1,5 +1,5 @@
 .section-features {
-    padding: 10rem 0 20rem 0;
+    padding: 10rem 0 10rem 0;
     background-image: linear-gradient(to right bottom, $color-white, $athens-grey);
     background-size: cover;
     background-attachment: fixed;
@@ -8,7 +8,7 @@
 }
 
 .section-about {
-    padding: 10rem 0 15rem 0;
+    padding: 10rem 0 10rem 0;
     background-image: linear-gradient(to top, $trout, $glacier);
     background-size: cover;
     background-attachment: fixed;
@@ -18,7 +18,7 @@
 }
 
 .section-how-it-works {
-    padding: 10rem 0 20rem 0;
+    padding: 10rem 0 10rem 0;
     background-image: linear-gradient(to right top, $color-white, $athens-grey);
     background-size: cover;
     background-attachment: fixed;
@@ -29,6 +29,8 @@
 
 .section-privacy {
     padding: 10rem 0 15rem 0;
+    background: url(../images/image__privacy.png) no-repeat left top;
+    background-size: 100rem;
     background-color: $trout;
     //background-size: cover;
     //background-attachment: fixed;
