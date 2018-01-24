@@ -51,7 +51,7 @@ body {
     font-weight: 300;
     display: block;
     letter-spacing: 2px;
-    max-width: 88rem;
+    max-width: 114rem;
     margin: 0 auto; }
     .heading-secondary--main-white {
       color: #fff; }
@@ -117,6 +117,11 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1.2rem; }
 
+.breaker-bar {
+  border-bottom: solid 0.25rem #F69062;
+  width: 6.4rem;
+  margin: 0 auto; }
+
 .button:link, .button:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -149,7 +154,7 @@ body {
     background-color: #E17747; }
 
 .section-cta1 {
-  height: 50vh;
+  height: 80vh;
   background-image: url(../images/cta__block1.jpg);
   background-size: cover;
   background-position: top;
@@ -176,11 +181,8 @@ body {
     text-align: center; }
 
 .footer {
-  padding: 5rem 0 10rem 0;
-  background-image: linear-gradient(to top, #4E5865, #6FA8C6);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  padding: 3rem 0 5rem 0;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -279,7 +281,8 @@ body {
   align-items: center; }
   .navigation__container .left {
     flex-grow: 10;
-    padding-left: 4rem; }
+    padding-top: 1rem;
+    padding-left: 1rem; }
   .navigation__container .right {
     flex-grow: 1;
     display: flex;
@@ -326,8 +329,4 @@ body {
 
 .section-privacy {
   padding: 10rem 0 15rem 0;
-  background-image: linear-gradient(to top, #4E5865, #6FA8C6);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  border-bottom: 0.25px solid #D7D7DB; }
+  background-color: #4E5865; }
