@@ -1,0 +1,23 @@
+.section-faq-sub-nav {
+    
+}
+
+.section-faq {
+    padding: 10rem 0 0 0;
+    background-color: $athens-grey;
+    //background-size: cover;
+    //background-attachment: fixed;
+    //background-position: center;
+
+    .textbox {
+
+        &--full-width {
+
+        }
+
+        .question-answer {
+            padding: 4rem 0rem 0rem 0rem;
+        }
+    }
+    
+}

@@ -14,3 +14,17 @@
 	    text-align: center;
     }
 }
+
+.header-faq {
+	height: 50vh;
+	background-color: $trout;
+	display: flex;
+    align-items: center;
+    
+
+    &__text-box {
+		width: $grid-width;
+		margin: 0 auto;
+        text-align: left;
+    }
+}

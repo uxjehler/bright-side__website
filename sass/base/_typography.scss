@@ -18,7 +18,16 @@ body {
         font-size: 6rem;
         font-weight: 300;
         letter-spacing: .25rem;
-        animation: moveInleft 2s ease-in-out;
+		animation: moveInleft 2s ease-in-out;
+	}
+	
+	&--main-white {
+		color: $color-white;
+        display: block;
+        font-size: 6rem;
+        font-weight: 300;
+        letter-spacing: .25rem;
+		animation: moveInleft 2s ease-in-out;
     }
 
     &--sub {
@@ -28,6 +37,17 @@ body {
         letter-spacing: .25rem;
         margin-bottom: 8rem;
         animation: moveInright 2s ease-in-out;
+	}
+
+	&--sub-small-white {
+		color: $color-white;
+		font-size: 2rem;
+		font-weight: 300;
+		line-height: 3rem;
+		display: inline-block;
+		letter-spacing: .5px;
+		max-width: $grid-width-m;
+		margin: 0 auto;
 	}
 	
 }
@@ -62,6 +82,10 @@ body {
 		letter-spacing: .5px;
 		max-width: $grid-width-s;
 		margin: 0 auto;
+
+		&-white {
+			color: $color-white;
+		}
 	}
     
 }
@@ -93,6 +117,12 @@ body {
 	&__left {
 		text-align: left;
 	}
+
+	&__left-medium {
+		text-align: left;
+		font-size: 2rem;
+		margin: 0;
+	}
     
     &:not(:last-child) {
         margin-bottom: 1rem;
@@ -120,4 +150,35 @@ body {
 
 .text-white {
 	color: $color-white;
+}
+
+.heading-faq-question {
+	font-family: "Open Sans";
+	backface-visibility: hidden;
+
+	&--main {
+		font-size: 2.5rem;
+		font-weight: 400;
+		display: block;
+		letter-spacing: 1,5px;
+		max-width: $grid-width;
+		margin: 0 auto;
+
+		&-white {
+			color: $color-white;
+		}
+
+		&-trout {
+			color: $trout;
+		}
+	}
+}
+
+.heading-sub-nav {
+    font-size: 1.5rem;
+    font-weight: 400;
+	text-transform: uppercase;
+	text-align: left;
+	width: $grid-width;
+	margin: 0 auto;
 }
