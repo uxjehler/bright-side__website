@@ -144,13 +144,29 @@ body {
     .heading-faq-question--main-trout {
       color: #4E5865; }
 
-.heading-sub-nav {
-  font-size: 1.5rem;
+.faq-sub-nav {
+  font-size: 1.25rem;
   font-weight: 400;
   text-transform: uppercase;
   text-align: left;
   width: 114rem;
   margin: 0 auto; }
+  .faq-sub-nav .column a {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .5px;
+    line-height: 4rem;
+    color: #6FA8C6;
+    text-decoration: none;
+    text-transform: none;
+    transition: 0.2s;
+    border-bottom: none #F69062; }
+    .faq-sub-nav .column a:hover {
+      color: #4E5865;
+      border-bottom: solid 0.25px #F69062;
+      transition: 0.2s;
+      transform: translateY(-0.4rem); }
 
 .u-center-text {
   text-align: center; }
@@ -201,6 +217,23 @@ body {
   .button--sandy-brown::after {
     background-color: #E17747; }
 
+.back-to-top {
+  background: none;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 70px;
+  height: 70px;
+  z-index: 100;
+  display: none;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff9000; }
+
+.back-to-top i {
+  font-size: 60px; }
+
 .section-cta1 {
   height: 80vh;
   background-image: url(../images/cta__block1.jpg);
@@ -221,7 +254,7 @@ body {
   background-position: center;
   background-attachment: fixed;
   position: relative;
-  color: #fff;
+  color: #4E5865;
   display: flex;
   align-items: center;
   justify-content: center; }
@@ -398,8 +431,11 @@ body {
   background-size: 100rem;
   background-color: #4E5865; }
 
+.section-faq-sub-nav {
+  padding: 4rem 0;
+  border-bottom: solid 4px #EEEFF1; }
+
 .section-faq {
-  padding: 10rem 0 0 0;
-  background-color: #EEEFF1; }
+  padding: 1rem 0 5rem 0; }
   .section-faq .textbox .question-answer {
     padding: 4rem 0rem 0rem 0rem; }

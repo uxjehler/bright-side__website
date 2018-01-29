@@ -174,11 +174,42 @@ body {
 	}
 }
 
-.heading-sub-nav {
-    font-size: 1.5rem;
+.faq-sub-nav {
+    font-size: 1.25rem;
     font-weight: 400;
 	text-transform: uppercase;
 	text-align: left;
 	width: $grid-width;
 	margin: 0 auto;
+
+	.column {
+
+
+		a {
+			display: block;
+			font-size: 1.5rem;
+			font-weight: 400;
+			letter-spacing: .5px;
+			line-height: 4rem;
+			color: $glacier;
+			text-decoration: none;
+			text-transform: none;
+			transition: 0.2s;
+			border-bottom: none $sandy-brown;
+
+			&:hover {
+
+				color: $trout;
+				border-bottom: solid .25px $sandy-brown;
+				transition: 0.2s;
+				transform: translateY(-.4rem);
+
+	
+
+
+			}
+
+		}
+
+	}
 }
