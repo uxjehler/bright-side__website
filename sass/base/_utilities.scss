@@ -22,3 +22,13 @@
         margin: 0 auto;
     }
 }
+
+//HASH TAG LINK POSITION CORRECTION
+h2::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -100px; 
+  height: 100px; 
+  visibility: hidden; 
+  pointer-events: none;
+}

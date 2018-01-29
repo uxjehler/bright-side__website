@@ -186,6 +186,14 @@ body {
   .breaker-bar--center {
     margin: 0 auto; }
 
+h2::before {
+  display: block;
+  content: " ";
+  margin-top: -100px;
+  height: 100px;
+  visibility: hidden;
+  pointer-events: none; }
+
 .button:link, .button:visited {
   text-transform: uppercase;
   text-decoration: none;
